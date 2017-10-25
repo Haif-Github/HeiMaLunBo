@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.haif.heimalunbo.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#22ff0000"></android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:gravity="center"
+            android:padding="2dp"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:background="#4400ff00"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/main_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#aa00aa"
+                android:text="hello"/>
+
+            <LinearLayout
+                android:padding="3dp"
+                android:orientation="horizontal"
+                android:id="@+id/main_ll_cycle"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <!--<ImageView
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/cycle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></ImageView>
+                <ImageView
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/cycle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></ImageView>
+                <ImageView
+                    android:src="@drawable/cycle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></ImageView>
+                <ImageView
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/cycle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></ImageView>
+                <ImageView
+                    android:id="@+id/main_iv_circle4"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/cycle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></ImageView>-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
